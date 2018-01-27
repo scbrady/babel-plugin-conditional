@@ -1,14 +1,15 @@
 {
-  "name": "babel-plugin-conditional",
+  "name": "babel-plugin-conditional-skit",
   "version": "0.0.1",
   "description": "Conditionally applies a set of babel plugins based on the result of an expression evaluated at runtime.",
   "main": "babel-plugin-conditional.js",
   "scripts": {
     "build": "babel -d lib src",
+    "prepublish": "npm run build",
     "test": "mocha"
   },
   "repository": {
-    "url": "https://github.com/codemix/babel-plugin-conditional",
+    "url": "https://github.com/scbrady/babel-plugin-conditional",
     "type": "git"
   },
   "author": "Charles Pick <charles@codemix.com>",
